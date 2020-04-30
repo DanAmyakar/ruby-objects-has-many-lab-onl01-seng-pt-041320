@@ -15,7 +15,7 @@ class Song
   end
   
   def artist_name
-    @artist
+    @artist.to_s
   end
   
 end
