@@ -4,8 +4,6 @@ class Artist
   # expect(adele.name).to eq("Adele")
   attr_accessor :name
   
-  @@songs = []
-  
   # it "is initialized with a name" do
   # expect{Artist.new("Beyonce")}.to_not raise_error
   def initialize(name)
