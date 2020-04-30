@@ -12,7 +12,7 @@ class Artist
     @songs
   end
   
-  def add_song(arg)
+  def add_song
     Song.arg.artist = self
   end
   
