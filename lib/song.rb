@@ -9,8 +9,6 @@ class Song
     @@all << self
   end
   
-
-  
   def artist_name
     @artist == "" ? nil : @artist.to_s
   end
