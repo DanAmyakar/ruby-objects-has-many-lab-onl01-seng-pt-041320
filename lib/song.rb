@@ -18,6 +18,8 @@ class Song
     @artist == "" ? nil : @artist.to_s
   end
   
-  def 
+  def self.all
+    @@all
+  end
   
 end
