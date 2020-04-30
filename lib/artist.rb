@@ -10,12 +10,13 @@ class Artist
     
   end
   
-  def add_song
+  def add_song(arg)
     
   end
   
-  def add_song_by_name
-    
+  def add_song_by_name(arg)
+    Song.new("#{arg}")
+    add_song
   end
   
   
