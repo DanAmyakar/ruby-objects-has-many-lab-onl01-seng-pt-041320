@@ -9,7 +9,7 @@ class Artist
   end
   
   def songs
-    self.songs.all
+    @@songs.all
   end
   
 end
