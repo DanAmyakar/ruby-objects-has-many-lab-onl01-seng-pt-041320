@@ -14,4 +14,8 @@ class Song
     @artist = Artist.songs.include(self)
   end
   
+  def artist_name
+    @artist
+  end
+  
 end
