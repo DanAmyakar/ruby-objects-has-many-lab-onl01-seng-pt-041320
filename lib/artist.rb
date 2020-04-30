@@ -30,7 +30,7 @@ class Artist
     add_song(nu_song)
   end
   
-  def song_count
+  def SongCount
     self.songs.count
   end
   
