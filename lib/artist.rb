@@ -10,6 +10,14 @@ class Artist
     
   end
   
-  def 
+  def add_song
+    
+  end
+  
+  def add_song_by_name
+    
+  end
+  
+  
   
 end
