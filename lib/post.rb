@@ -8,5 +8,6 @@ class Post
     @title = title
     @author = author
     @@all << self
+  end
 
 end
