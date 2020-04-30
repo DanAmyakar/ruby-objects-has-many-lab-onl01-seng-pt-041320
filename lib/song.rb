@@ -15,7 +15,7 @@ class Song
   end
   
   def artist_name
-    @artist.to_s
+    @artist == "" ? nil : @artist
   end
   
 end
