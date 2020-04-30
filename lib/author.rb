@@ -9,7 +9,7 @@ class Author
     @posts = []
   end
   
-  def posts
+  def self.posts
     @posts
   end
   
