@@ -9,5 +9,8 @@ class Post
     @author = author
     @@all << self
   end
+  
+  def author_name
+    @author_name
 
 end
