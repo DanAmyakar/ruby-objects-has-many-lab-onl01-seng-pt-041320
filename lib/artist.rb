@@ -9,7 +9,7 @@ class Artist
   end
   
   def songs
-    Song.all.select{||
+    Song.all.select{|song| song
   end
   
 end
