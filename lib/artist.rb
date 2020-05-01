@@ -13,13 +13,13 @@ class Artist
   
   def add_song(song)
     song.artist = self
-    self.songs << song
+    self.songs << song.name
   end
   
   def add_song_by_name(arg)
     song = Song.new(arg)
     song.artist = self
-    self.songs << song
+    self.songs << song.name
   end
   
   def self.song_count
